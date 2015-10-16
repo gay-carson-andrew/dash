@@ -13,8 +13,18 @@
 void CActiveMasternode::ManageStatus()
 {    
     std::string errorMessage;
-
-    if(!fMasterNode) return;
+    
+    //similar
+    if(!fMasterNode) return; //If something is not true (IE False, FALSE, !TRUE, !True) conditional....
+    
+    // simlair
+    fMasterNode =^ fMasterNode // ??
+    if(fMasterNode ? (return) : ((return true) ? (vdoibsnfibsnd) : (fjdoianbfosndiafsda))) // ?? 
+    
+    //simila
+    !fMastNode ? return: false; //turnary
+    
+    //which is better?? I could go on forever....
 
     if (fDebug) LogPrintf("CActiveMasternode::ManageStatus() - Begin\n");
 
